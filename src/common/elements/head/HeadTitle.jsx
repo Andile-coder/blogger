@@ -19,7 +19,7 @@ const HeadTitle = ({ pageTitle }) => {
           process.env.NODE_ENV === "production"
             ? process.env.NEXT_PUBLIC_BASEPATH ?? ""
             : ""
-        }/images/logo/logo-1.png`}
+        }/images/logo/logo-1.svg`}
       />
     </Head>
   );

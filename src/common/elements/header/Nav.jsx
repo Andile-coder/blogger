@@ -53,7 +53,8 @@ const Nav = ({ posts }) => {
   return (
     <ul className="mainmenu">
       <li className="menu-item-has-children">
-        <a href="/">Home</a>
+        <Link href="/">Home</Link>
+        {/* <a ></a> */}
         {/* <ul className="axil-submenu">
           <li>
             <Link href="/">
@@ -255,19 +256,19 @@ const Nav = ({ posts }) => {
           <a>Lifestyle</a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/tech-blog">
           <a>Gadgets</a>
         </Link>
-      </li>
+      </li> */}
       <li className="menu-item-has-children megamenu-wrapper">
-        <Link href="#">
+        {/* <Link href="#">
           <a>Mega Menu</a>
-        </Link>
+        </Link> */}
         <ul className="megamenu-sub-menu">
           <li className="megamenu-item">
             {/* Start Verticle Nav  */}
-            <div className="axil-vertical-nav">
+            {/* <div className="axil-vertical-nav">
               <ul className="vertical-nav-menu">
                 {filters.map((data) => (
                   <li
@@ -288,12 +289,12 @@ const Nav = ({ posts }) => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
             {/* Start Verticle Nav  */}
             {/* Start Verticle Menu  */}
             <div className="axil-vertical-nav-content">
               {/* Start One Item  */}
-              <div className="axil-vertical-inner tab-content">
+              {/* <div className="axil-vertical-inner tab-content">
                 <div className="axil-vertical-single">
                   <div className="row">
                     {tabPostData.slice(0, 4).map((data) => (
@@ -337,7 +338,7 @@ const Nav = ({ posts }) => {
                     ))}
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* End One Item  */}
             </div>
             {/* End Verticle Menu  */}
